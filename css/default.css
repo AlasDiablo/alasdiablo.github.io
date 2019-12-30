@@ -1,0 +1,41 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    padding: 0.5%;
+    background: cornflowerblue;
+}
+header a {
+    vertical-align: middle;
+    text-decoration: none;
+}
+.nav {
+    margin-right: 1%;
+    padding: .30%;
+    font-weight: bold;
+    color: darkslateblue;
+    background: #83baff;
+    border-color: darkslateblue;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 16px;
+    transition-duration: 0.05s;
+}
+.nav:hover {
+    border-radius: 6px;
+    transition-duration: 0.25s;
+}
+#alasdiablo {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 2em;
+    margin-right: 4%;
+}
+#name-alas {
+    color: red;
+}
+#name-diablo {
+    color: white;
+}
