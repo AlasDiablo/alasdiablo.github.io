@@ -2,18 +2,115 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" type="text/css" href="/css/default.css">
-    <link rel="icon" href="https://avatars0.githubusercontent.com/u/25723276?s=460&v=4">
-    <title>AlasDiablo - GitHub Pages</title>
+    <script src="js/mobile.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/default.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
+    <title>AlasDiablo</title>
 </head>
 <body>
-    <header>
-        <a href="/" id="alasdiablo"><span id="name-alas">Alas</span><span id="name-diablo">Diablo</span></a>
-        <a href="https://www.curseforge.com/minecraft/mc-mods/janoeo" id="janoeo" class="nav">Janoeo</a>
-        <!--a href="/mcextractor.html" id="mcextractor" class="nav">MCExtractor</a>
-        <a href="/jprettylogs.html" id="jprettylogs" class="nav">JPrettyLogs</a-->
-    </header>
+<div class="backgrounds overlay">
+    <div class="background" style="background-image: url('img/blue_fractal_by_liotamiu_dcrebrm.jpg');"></div>
+</div>
 
-    <h1>Web site under construction!</h1>
+<header
+        data-aos="fade-down"
+        data-aos-duration="1000"
+>
+    <a href="index.html" id="alasdiablo">
+        <span id="name-alas">Alas</span>
+        <span id="name-diablo">Diablo</span>
+    </a>
+    <nav>
+        <ul>
+            <li><a href="wip.html">Blog</a></li>
+            <li class="upper-menu">
+                <a>About me</a>
+                <ul class="under-menu">
+                    <li><a href="wip.html">Study</a></li>
+                    <li><a href="wip.html">Project</a></li>
+                </ul>
+            </li>
+            <li class="upper-menu">
+                <a>Mods</a>
+                <ul class="under-menu">
+                    <li><a href="janoeo.html">Janoeo</a></li>
+                    <li><a href="janoeo-arsenal.html">Janoeo Arsenal</a></li>
+                </ul>
+            </li>
+            <li><a href="wip.html">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<article
+        class="alasdiablo-avatar"
+        data-aos="fade-up"
+        data-aos-delay="250"
+        data-aos-duration="750"
+>
+    <img src="https://avatars0.githubusercontent.com/u/25723276?s=460&v=4" alt="AlasDiablo Avatar">
+</article>
+
+<article
+        class="article-left"
+        data-aos="fade-right"
+        data-aos-delay="500"
+        data-aos-duration="750"
+>
+    <h1>Hello, it Pierre</h1>
+    I'm a software developer and a student at Université de Lorraine.
+</article>
+
+<article
+        class="article-right"
+        data-aos="fade-left"
+        data-aos-delay="750"
+        data-aos-duration="750"
+>
+    <h1>Skills</h1>
+    <div class="skills-container">
+        <img
+                data-aos="zoom-in-left"
+                data-aos-delay="950"
+                class="skills skills-js"
+                src="img/JavaScript-logo.png"
+                alt="JavaScript"
+        >
+        <img
+                data-aos="zoom-in-left"
+                data-aos-delay="1050"
+                class="skills skills-php"
+                src="img/PHP-logo.png"
+                alt="PHP"
+        >
+        <img
+                data-aos="zoom-in-left"
+                data-aos-delay="1150"
+                class="skills skills-kotlin"
+                src="img/Kotlin-logo.png"
+                alt="Kotlin"
+        >
+        <img
+                data-aos="zoom-in-left"
+                data-aos-delay="1250"
+                class="skills skills-java"
+                src="img/Java-logo.png"
+                alt="Java"
+        >
+        <img
+                data-aos="zoom-in-left"
+                data-aos-delay="1350"
+                class="skills skills-web"
+                src="img/HTML5-CSS3-logo.png"
+                alt="Html5 CSS3"
+        >
+    </div>
+</article>
+
+<script src="js/snow.min.js"></script>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+    AOS.init({once: true});
+</script>
 </body>
 </html>
