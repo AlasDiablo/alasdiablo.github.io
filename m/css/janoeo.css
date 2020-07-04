@@ -3,6 +3,7 @@
     background-color: rgba(240, 248, 255, 0.50);
     margin: 4% 12% 8%;
     padding: 2%;
+    font-size: 0.75em;
 }
 
 #janoeo h1 {
@@ -20,9 +21,10 @@ a {
 
 .dl {
     display: inline-block;
-    padding: 1%;
+    padding: 4%;
     margin: 1%;
-    width: 12%;
+    width: 32%;
+    height: 12%;
     border-radius: 16px;
     text-decoration: none;
     font-weight: bold;
@@ -30,6 +32,7 @@ a {
     background-color: #4866a5;
     border-style: outset;
     list-style: none;
+    font-size: 2em;
 }
 
 .dl:hover {
