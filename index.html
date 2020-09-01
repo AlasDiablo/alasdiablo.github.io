@@ -1,116 +1,145 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <script src="js/mobile.js"></script>
-    <link rel="stylesheet" type="text/css" href="css/default.min.css">
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
-    <title>AlasDiablo</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="Bootstrap, AlasDiablo">
+    <title>Project list · AlasDiablo</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/4.5/examples/album/">
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+        .bd-placeholder-img {
+            font-size: 1.125rem;
+            text-anchor: middle;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+        }
+
+        @media (min-width: 768px) {
+            .bd-placeholder-img-lg {
+                font-size: 3.5rem;
+            }
+        }
+    </style>
+    <!-- Custom styles for this template -->
+    <link href="css/index.css" rel="stylesheet">
 </head>
 <body>
-<div class="backgrounds overlay">
-    <div class="background" style="background-image: url('img/blue_fractal_by_liotamiu_dcrebrm.jpg');"></div>
-</div>
-
-<header
-        data-aos="fade-down"
-        data-aos-duration="1000"
->
-    <a href="index.html" id="alasdiablo">
-        <span id="name-alas">Alas</span>
-        <span id="name-diablo">Diablo</span>
-    </a>
-    <nav>
-        <ul>
-            <li><a href="wip.html">Blog</a></li>
-            <li class="upper-menu">
-                <a>About me</a>
-                <ul class="under-menu">
-                    <li><a href="wip.html">Study</a></li>
-                    <li><a href="wip.html">Project</a></li>
-                </ul>
-            </li>
-            <li class="upper-menu">
-                <a>Mods</a>
-                <ul class="under-menu">
-                    <li><a href="janoeo.html">Janoeo</a></li>
-                    <li><a href="janoeo-arsenal.html">Janoeo Arsenal</a></li>
-                </ul>
-            </li>
-            <li><a href="wip.html">Contact</a></li>
-        </ul>
-    </nav>
+<header>
+    <div class="navbar navbar-dark bg-dark shadow-sm">
+        <div class="container d-flex justify-content-between">
+            <a href="#" class="navbar-brand d-flex align-items-center">
+                <img class="rounded mr-2" src="https://avatars2.githubusercontent.com/u/25723276?s=460&u=0dd1504c1bbd81f89e5298834f47d6c5778204b3&v=4" width="20" alt="AlasDiablo picture">
+                <strong>AlasDiablo</strong>
+            </a>
+        </div>
+    </div>
 </header>
 
-<article
-        class="alasdiablo-avatar"
-        data-aos="fade-up"
-        data-aos-delay="250"
-        data-aos-duration="750"
->
-    <img src="https://avatars0.githubusercontent.com/u/25723276?s=460&v=4" alt="AlasDiablo Avatar">
-</article>
+<main role="main">
 
-<article
-        class="article-left"
-        data-aos="fade-right"
-        data-aos-delay="500"
-        data-aos-duration="750"
->
-    <h1>Hello, it Pierre</h1>
-    I'm a software developer and a student at Université de Lorraine.
-</article>
+    <section class="jumbotron text-center">
+        <div class="container">
+            <h1>My projects</h1>
+            <p class="lead text-muted">This is an example of what I do at work or in my personal time.</p>
+        </div>
+    </section>
 
-<article
-        class="article-right"
-        data-aos="fade-left"
-        data-aos-delay="750"
-        data-aos-duration="750"
->
-    <h1>Skills</h1>
-    <div class="skills-container">
-        <img
-                data-aos="zoom-in-left"
-                data-aos-delay="950"
-                class="skills skills-js"
-                src="img/JavaScript-logo.png"
-                alt="JavaScript"
-        >
-        <img
-                data-aos="zoom-in-left"
-                data-aos-delay="1050"
-                class="skills skills-php"
-                src="img/PHP-logo.png"
-                alt="PHP"
-        >
-        <img
-                data-aos="zoom-in-left"
-                data-aos-delay="1150"
-                class="skills skills-kotlin"
-                src="img/Kotlin-logo.png"
-                alt="Kotlin"
-        >
-        <img
-                data-aos="zoom-in-left"
-                data-aos-delay="1250"
-                class="skills skills-java"
-                src="img/Java-logo.png"
-                alt="Java"
-        >
-        <img
-                data-aos="zoom-in-left"
-                data-aos-delay="1350"
-                class="skills skills-web"
-                src="img/HTML5-CSS3-logo.png"
-                alt="Html5 CSS3"
-        >
+    <div class="album py-5 bg-light">
+        <div class="container">
+
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card mb-4 shadow-sm">
+                        <img src="https://repository-images.githubusercontent.com/203559265/35dc0180-c849-11ea-96d0-cda07e50f7c8" alt="Janoeo image" width="100%" height="25%">
+                        <div class="card-body">
+                            <p class="card-text">
+                                <strong>Janoeo</strong> is a Minecraft mod who add a lot of ore in all dimension given my the game.
+                            </p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <button
+                                            type="button"
+                                            class="btn btn-sm btn-outline-secondary"
+                                            onClick="window.open('https://www.curseforge.com/minecraft/mc-mods/janoeo', '_blank');"
+                                    >
+                                        View on CurseForge
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card mb-4 shadow-sm">
+                        <span style="text-align: center">
+                            <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="Janoeo arsenal" width="50%">
+                        </span>
+                        <div class="card-body">
+                            <p class="card-text">
+                                On my <strong>Github</strong> you can found all my project and other project not listed on this page.
+                            </p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <button
+                                            type="button"
+                                            class="btn btn-sm btn-outline-secondary"
+                                            onClick="window.open('https://github.com/AlasDiablo', '_blank');"
+                                    >
+                                        View
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card mb-4 shadow-sm">
+                        <img src="https://repository-images.githubusercontent.com/245836482/9ec98500-c8ee-11ea-8b8c-ea3df046b0ec" alt="Janoeo arsenal" width="100%" height="25%">
+                        <div class="card-body">
+                            <p class="card-text">
+                                <strong>Janoeo Arsenal</strong> is an add-on who add armor and tools for Janoeo.
+                            </p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <button
+                                            type="button"
+                                            class="btn btn-sm btn-outline-secondary"
+                                            onClick="window.open('https://www.curseforge.com/minecraft/mc-mods/janoeo-arsenal', '_blank');"
+                                    >
+                                        View on CurseForge
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
     </div>
-</article>
 
-<script src="js/snow.min.js"></script>
-<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-<script>
-    AOS.init({once: true});
-</script>
+</main>
+
+<footer class="text-muted">
+    <div class="container">
+        <p>Bootstrap, AlasDiablo &copy; 2020</p>
+        <p></p>
+    </div>
+</footer>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+<script>window.jQuery || document.write('<script src="js/jquery.slim.min.js"><\/script>')</script>
+<script src="js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
