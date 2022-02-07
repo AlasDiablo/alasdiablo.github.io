@@ -1,0 +1,67 @@
+{
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "$ref": "#/definitions/DistributedPlusCalTestModel",
+  "definitions": {
+    "DistributedPlusCalTestModel": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "test-group": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/TestGroup"
+          }
+        }
+      },
+      "required": [
+        "test-group"
+      ],
+      "title": "DistributedPlusCalTestModel"
+    },
+    "TestGroup": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "name": {
+          "type": "string"
+        },
+        "path": {
+          "type": "string"
+        },
+        "tests": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/Test"
+          }
+        }
+      },
+      "required": [
+        "name",
+        "path",
+        "tests"
+      ],
+      "title": "TestGroup"
+    },
+    "Test": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "file": {
+          "type": "string"
+        },
+        "fail": {
+          "type": "boolean"
+        },
+        "translate-only": {
+          "type": "boolean"
+        }
+      },
+      "required": [
+        "fail",
+        "file",
+        "translate-only"
+      ],
+      "title": "Test"
+    }
+  }
+}
