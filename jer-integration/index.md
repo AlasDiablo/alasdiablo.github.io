@@ -9,6 +9,7 @@ layout: default
 ## Compatibility list by version:
 
 ### 1.19.2
++ [4.3.1](/jer-integration/version/4.3.1)
 + [4.3.0](/jer-integration/version/4.3.0)
 
 ### 1.18.2
