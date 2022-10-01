@@ -5,4 +5,4 @@ layout: default
 # AlasDiablo Documentation site
 
 ## Available docs:
-+ TBD
++ [JER Integration - Compatibility list by version]
