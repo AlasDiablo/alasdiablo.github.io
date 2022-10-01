@@ -2,6 +2,8 @@
 layout: default
 ---
 
+/ [Home](/) /
+
 # AlasDiablo Documentation site
 
 ## Available docs:
