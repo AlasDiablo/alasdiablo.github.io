@@ -2,9 +2,8 @@
 layout: default
 ---
 
-/ [Home](/) / [JER Integration](/jer-integration) 
-
 # JER Integration compatibility list
+/ [Home](/) / [JER Integration](/jer-integration)
 
 ## Compatibility list by version:
 
